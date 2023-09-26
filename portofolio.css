@@ -35,7 +35,6 @@ nav .logo {
     display: flex;
     gap: 70%;
     margin-top: 150px;
-    /* background-color: aqua; */
 }
 
 .container .name {
@@ -62,7 +61,6 @@ nav .logo {
     flex-direction: column;
     justify-content: space-around;
     width: fit-content;
-    /* background-color: aqua; */
 }
 
 .socialMedia li {
