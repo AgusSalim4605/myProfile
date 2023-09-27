@@ -1,9 +1,27 @@
 body {
     margin: 0 140px;
     box-sizing: border-box;
-    background-image: url(me.jpg);
-    background-size: cover;
+    background-color: black;
     color: aliceblue;
+    background-position: center;
+}
+
+.background{
+    top: 18%;
+    left: 32%;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 1000px 40px 100px rgb(40, 13, 138), -100px -100px 100px rgb(40, 13, 138);
+}
+
+img{
+    width :40%;
+    height: 70%;
+    position: absolute;
+    top: 18%;
+    left: 25%;
 }
 
 nav {
@@ -35,7 +53,6 @@ nav .logo {
     display: flex;
     gap: 70%;
     margin-top: 150px;
-    /* background-color: aqua; */
 }
 
 .container .name {
@@ -62,7 +79,6 @@ nav .logo {
     flex-direction: column;
     justify-content: space-around;
     width: fit-content;
-    /* background-color: aqua; */
 }
 
 .socialMedia li {
